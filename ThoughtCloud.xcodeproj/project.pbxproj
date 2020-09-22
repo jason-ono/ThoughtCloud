@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFB46B00ECAD6E1425DBB89F /* Pods_ThoughtCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDB275E1975084105F76F9A /* Pods_ThoughtCloud.framework */; };
+		F80F20B124C9630B009879F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80F20B024C9630B009879F4 /* AppDelegate.swift */; };
+		F80F20B324C9630B009879F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80F20B224C9630B009879F4 /* SceneDelegate.swift */; };
+		F80F20B524C9630B009879F4 /* SphereViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80F20B424C9630B009879F4 /* SphereViewController.swift */; };
+		F81D3BDB2516FCBA000F337A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F80F20BC24C9630D009879F4 /* Assets.xcassets */; };
+		F81D3BDC2516FCBD000F337A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80F20BE24C9630D009879F4 /* LaunchScreen.storyboard */; };
+		F831BA3724E110F400095872 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F831BA3624E110F400095872 /* CategoryViewController.swift */; };
+		F837A7B924D076B900B9450F /* CloudWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = F837A7B824D076B900B9450F /* CloudWord.swift */; };
+		F84EFD5D24CD4E6800202502 /* MainNaviController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84EFD5C24CD4E6800202502 /* MainNaviController.swift */; };
+		F8B93EE024CC01B3006EA52A /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B93EDF24CC01B3006EA52A /* ListViewController.swift */; };
+		F8C423D624CDD3EF001A2E6C /* TypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C423D524CDD3EF001A2E6C /* TypeViewController.swift */; };
+		F8C79D0D25170B7E005692AE /* ThoughtCloud.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F8C79D0A25170AD1005692AE /* ThoughtCloud.xcdatamodeld */; };
+		F8C79D1025172BD6005692AE /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F8C79D0F25172BD6005692AE /* LICENSE */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BF46F5415ED975BC97F6A27 /* Pods-ThoughtCloud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThoughtCloud.release.xcconfig"; path = "Target Support Files/Pods-ThoughtCloud/Pods-ThoughtCloud.release.xcconfig"; sourceTree = "<group>"; };
+		6FDB275E1975084105F76F9A /* Pods_ThoughtCloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThoughtCloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		831B6E12D1C78A594A5DE877 /* Pods-ThoughtCloud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThoughtCloud.debug.xcconfig"; path = "Target Support Files/Pods-ThoughtCloud/Pods-ThoughtCloud.debug.xcconfig"; sourceTree = "<group>"; };
+		F80F20AD24C9630B009879F4 /* ThoughtCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThoughtCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80F20B024C9630B009879F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F80F20B224C9630B009879F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F80F20B424C9630B009879F4 /* SphereViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereViewController.swift; sourceTree = "<group>"; };
+		F80F20BC24C9630D009879F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F80F20BF24C9630D009879F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F80F20C124C9630D009879F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F831BA3624E110F400095872 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		F837A7B824D076B900B9450F /* CloudWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudWord.swift; sourceTree = "<group>"; };
+		F84EFD5C24CD4E6800202502 /* MainNaviController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNaviController.swift; sourceTree = "<group>"; };
+		F8B93EDF24CC01B3006EA52A /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		F8C423D524CDD3EF001A2E6C /* TypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeViewController.swift; sourceTree = "<group>"; };
+		F8C79D0B25170AD1005692AE /* ThoughtCloud.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ThoughtCloud.xcdatamodel; sourceTree = "<group>"; };
+		F8C79D0E25171F6B005692AE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F8C79D0F25172BD6005692AE /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F80F20AA24C9630B009879F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB46B00ECAD6E1425DBB89F /* Pods_ThoughtCloud.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BAFE936ABA5A849327A3B54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FDB275E1975084105F76F9A /* Pods_ThoughtCloud.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95E26C508D1E2DDAB46B7253 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				831B6E12D1C78A594A5DE877 /* Pods-ThoughtCloud.debug.xcconfig */,
+				0BF46F5415ED975BC97F6A27 /* Pods-ThoughtCloud.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F80F20A424C9630B009879F4 = {
+			isa = PBXGroup;
+			children = (
+				F8C79D0F25172BD6005692AE /* LICENSE */,
+				F8C79D0E25171F6B005692AE /* README.md */,
+				F8DB245B24E79BC500BD26C7 /* Collection */,
+				F8B93EDD24CC0178006EA52A /* Model */,
+				F80F20AF24C9630B009879F4 /* ThoughtCloud */,
+				F80F20AE24C9630B009879F4 /* Products */,
+				95E26C508D1E2DDAB46B7253 /* Pods */,
+				2BAFE936ABA5A849327A3B54 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F80F20AE24C9630B009879F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F80F20AD24C9630B009879F4 /* ThoughtCloud.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F80F20AF24C9630B009879F4 /* ThoughtCloud */ = {
+			isa = PBXGroup;
+			children = (
+				F80F20B024C9630B009879F4 /* AppDelegate.swift */,
+				F80F20B224C9630B009879F4 /* SceneDelegate.swift */,
+				F80F20BC24C9630D009879F4 /* Assets.xcassets */,
+				F80F20BE24C9630D009879F4 /* LaunchScreen.storyboard */,
+				F80F20C124C9630D009879F4 /* Info.plist */,
+			);
+			path = ThoughtCloud;
+			sourceTree = "<group>";
+		};
+		F8B93EDD24CC0178006EA52A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F8C79D0A25170AD1005692AE /* ThoughtCloud.xcdatamodeld */,
+				F837A7B824D076B900B9450F /* CloudWord.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F8DB245B24E79BC500BD26C7 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				F84EFD5C24CD4E6800202502 /* MainNaviController.swift */,
+				F831BA3624E110F400095872 /* CategoryViewController.swift */,
+				F8B93EDF24CC01B3006EA52A /* ListViewController.swift */,
+				F8C423D524CDD3EF001A2E6C /* TypeViewController.swift */,
+				F80F20B424C9630B009879F4 /* SphereViewController.swift */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F80F20AC24C9630B009879F4 /* ThoughtCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F80F20C424C9630D009879F4 /* Build configuration list for PBXNativeTarget "ThoughtCloud" */;
+			buildPhases = (
+				87FC0C0B931FC3A69F10661B /* [CP] Check Pods Manifest.lock */,
+				F80F20A924C9630B009879F4 /* Sources */,
+				F80F20AA24C9630B009879F4 /* Frameworks */,
+				F80F20AB24C9630B009879F4 /* Resources */,
+				578CDE05E32DFB48FD08EEF1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThoughtCloud;
+			productName = WordCloudTest;
+			productReference = F80F20AD24C9630B009879F4 /* ThoughtCloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F80F20A524C9630B009879F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Jason Ono";
+				TargetAttributes = {
+					F80F20AC24C9630B009879F4 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = F80F20A824C9630B009879F4 /* Build configuration list for PBXProject "ThoughtCloud" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F80F20A424C9630B009879F4;
+			productRefGroup = F80F20AE24C9630B009879F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F80F20AC24C9630B009879F4 /* ThoughtCloud */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F80F20AB24C9630B009879F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C79D1025172BD6005692AE /* LICENSE in Resources */,
+				F81D3BDC2516FCBD000F337A /* LaunchScreen.storyboard in Resources */,
+				F81D3BDB2516FCBA000F337A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		578CDE05E32DFB48FD08EEF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ThoughtCloud/Pods-ThoughtCloud-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ThoughtCloud/Pods-ThoughtCloud-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ThoughtCloud/Pods-ThoughtCloud-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87FC0C0B931FC3A69F10661B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ThoughtCloud-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F80F20A924C9630B009879F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F84EFD5D24CD4E6800202502 /* MainNaviController.swift in Sources */,
+				F80F20B524C9630B009879F4 /* SphereViewController.swift in Sources */,
+				F8C423D624CDD3EF001A2E6C /* TypeViewController.swift in Sources */,
+				F80F20B124C9630B009879F4 /* AppDelegate.swift in Sources */,
+				F837A7B924D076B900B9450F /* CloudWord.swift in Sources */,
+				F8B93EE024CC01B3006EA52A /* ListViewController.swift in Sources */,
+				F8C79D0D25170B7E005692AE /* ThoughtCloud.xcdatamodeld in Sources */,
+				F831BA3724E110F400095872 /* CategoryViewController.swift in Sources */,
+				F80F20B324C9630B009879F4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F80F20BE24C9630D009879F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F80F20BF24C9630D009879F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F80F20C224C9630D009879F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = /Users/kono/Desktop/ThoughtCloud/ThoughtCloud/Info.plist;
+				"INFOPLIST_FILE[sdk=*]" = /Users/kono/Desktop/ThoughtCloud/ThoughtCloud/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F80F20C324C9630D009879F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = /Users/kono/Desktop/ThoughtCloud/ThoughtCloud/Info.plist;
+				"INFOPLIST_FILE[sdk=*]" = /Users/kono/Desktop/ThoughtCloud/ThoughtCloud/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F80F20C524C9630D009879F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 831B6E12D1C78A594A5DE877 /* Pods-ThoughtCloud.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RP9N3JD73C;
+				INFOPLIST_FILE = /Users/kono/Desktop/ThoughtCloud/ThoughtCloud/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonono.ThoughtCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F80F20C624C9630D009879F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BF46F5415ED975BC97F6A27 /* Pods-ThoughtCloud.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RP9N3JD73C;
+				INFOPLIST_FILE = /Users/kono/Desktop/ThoughtCloud/ThoughtCloud/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonono.ThoughtCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F80F20A824C9630B009879F4 /* Build configuration list for PBXProject "ThoughtCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80F20C224C9630D009879F4 /* Debug */,
+				F80F20C324C9630D009879F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F80F20C424C9630D009879F4 /* Build configuration list for PBXNativeTarget "ThoughtCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80F20C524C9630D009879F4 /* Debug */,
+				F80F20C624C9630D009879F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F8C79D0A25170AD1005692AE /* ThoughtCloud.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F8C79D0B25170AD1005692AE /* ThoughtCloud.xcdatamodel */,
+			);
+			currentVersion = F8C79D0B25170AD1005692AE /* ThoughtCloud.xcdatamodel */;
+			path = ThoughtCloud.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F80F20A524C9630B009879F4 /* Project object */;
+}

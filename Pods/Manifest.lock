@@ -1,0 +1,16 @@
+PODS:
+  - DBSphereTagCloudSwift (2.0.2)
+
+DEPENDENCIES:
+  - DBSphereTagCloudSwift
+
+SPEC REPOS:
+  trunk:
+    - DBSphereTagCloudSwift
+
+SPEC CHECKSUMS:
+  DBSphereTagCloudSwift: 47d03bf7f0decec371a932630412b37938a9aaa5
+
+PODFILE CHECKSUM: 15ded4967735bcdeb1614a776320df3ba6595c33
+
+COCOAPODS: 1.9.3

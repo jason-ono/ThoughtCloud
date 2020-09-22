@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		023F20C99064795776C21FAFD4FE953A /* DBSphereView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ED2B35D6744E8BB846FA2876BBA9FD /* DBSphereView.swift */; };
+		2A1B6DD950FF7E44EE6FC7055E57180F /* MatrixSubscripting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1361FDB0CC633A9BFCFB7B0383AC3128 /* MatrixSubscripting.swift */; };
+		41AC52084F10EF0AB6A2F82DCFEE2FED /* DBSphereTagCloudSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A23D7A0889444D426081C07743C26AD /* DBSphereTagCloudSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4ADF4F0E3452A6640E42B8CAF869DB3D /* MatrixMultiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699329F2C21AC8F6F832B02C5BB0203D /* MatrixMultiplication.swift */; };
+		5998406296525F4EEA4926A23EC9BB70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BAF8CBDB5E3242031391164A0E21132 /* UIKit.framework */; };
+		6987165120801D15E8FE52441B0EBECE /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AEBEDBCA3E65006A4084AE35CF2BFBE /* Accelerate.framework */; };
+		793DCBCB27A9610E4EBB20F0956ADA12 /* MatrixCreation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B235131AF5BCFCAD24617AA54CE7E38B /* MatrixCreation.swift */; };
+		843266A08D390ABBE0EF41AA3A1FC78E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE33046A04C323E44A42CBCB9FA9FD05 /* Foundation.framework */; };
+		88702DEED2C4A5874AA2BF9283B13306 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE33046A04C323E44A42CBCB9FA9FD05 /* Foundation.framework */; };
+		9DDBCA976F6186806F63AFADD7EEA588 /* Pods-ThoughtCloud-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F62579486B592E022E13831584364E07 /* Pods-ThoughtCloud-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A76F7D32C5211F892AFA81C06CF3FFFD /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D5170A4D9FF2B98D2CE5B5269E7990 /* Matrix.swift */; };
+		AE750D84013C7D5FFBAFF04F626F8507 /* DBSphereTagCloudSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E3D8C0E07091D03A4FAE4428528810 /* DBSphereTagCloudSwift-dummy.m */; };
+		BC7E71F0E1A1A9EA60072D804E1E7BA6 /* Pods-ThoughtCloud-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C3AD23FE6C699450BA63F7B9B2C941 /* Pods-ThoughtCloud-dummy.m */; };
+		E4F73B1487AEB36B772FAC5211CAC9F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B51348992DCBDFA03363F4E0CF4FB6 /* CoreGraphics.framework */; };
+		FAF3E5132752CCE2C149BBB9FF0E7BB3 /* MatrixConcatenation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E8C7D4443D98DF61DEE005FA05CA1B /* MatrixConcatenation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		457AF0CDA25B84B6FCB062DF562A6ECF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2096AE7BB28DBC80384A8E5136579F81;
+			remoteInfo = DBSphereTagCloudSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02ED2B35D6744E8BB846FA2876BBA9FD /* DBSphereView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DBSphereView.swift; path = Sources/DBSphereView.swift; sourceTree = "<group>"; };
+		08E8C7D4443D98DF61DEE005FA05CA1B /* MatrixConcatenation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatrixConcatenation.swift; path = SwiftNum/Sources/Linear/MatrixConcatenation.swift; sourceTree = "<group>"; };
+		10E3D8C0E07091D03A4FAE4428528810 /* DBSphereTagCloudSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DBSphereTagCloudSwift-dummy.m"; sourceTree = "<group>"; };
+		11213513F063DA5D69022F9F254AEC85 /* Pods-ThoughtCloud-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThoughtCloud-acknowledgements.plist"; sourceTree = "<group>"; };
+		1361FDB0CC633A9BFCFB7B0383AC3128 /* MatrixSubscripting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatrixSubscripting.swift; path = SwiftNum/Sources/Linear/MatrixSubscripting.swift; sourceTree = "<group>"; };
+		1BC3771CE13AAD2B65587A90F9ECFEBC /* Pods_ThoughtCloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ThoughtCloud.framework; path = "Pods-ThoughtCloud.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A23D7A0889444D426081C07743C26AD /* DBSphereTagCloudSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DBSphereTagCloudSwift-umbrella.h"; sourceTree = "<group>"; };
+		2E3B65D2C22ABB1E3D72DF68DB551D81 /* Pods-ThoughtCloud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThoughtCloud.debug.xcconfig"; sourceTree = "<group>"; };
+		31D5170A4D9FF2B98D2CE5B5269E7990 /* Matrix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Matrix.swift; path = SwiftNum/Sources/Linear/Matrix.swift; sourceTree = "<group>"; };
+		3D1F0D860A70F2D9C2648745D91C61E7 /* DBSphereTagCloudSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DBSphereTagCloudSwift.debug.xcconfig; sourceTree = "<group>"; };
+		4FA6190C6EE0ADF1529767D9597D5BA0 /* Pods-ThoughtCloud-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThoughtCloud-frameworks.sh"; sourceTree = "<group>"; };
+		699329F2C21AC8F6F832B02C5BB0203D /* MatrixMultiplication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatrixMultiplication.swift; path = SwiftNum/Sources/Linear/MatrixMultiplication.swift; sourceTree = "<group>"; };
+		6B70128AEA399539EC4C76900E3B331E /* Pods-ThoughtCloud-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThoughtCloud-Info.plist"; sourceTree = "<group>"; };
+		7866D064D424485E40CA80D97C61CCAD /* DBSphereTagCloudSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DBSphereTagCloudSwift-Info.plist"; sourceTree = "<group>"; };
+		79241DD694CA0270353D9511F023A2BE /* DBSphereTagCloudSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DBSphereTagCloudSwift-prefix.pch"; sourceTree = "<group>"; };
+		7AEBEDBCA3E65006A4084AE35CF2BFBE /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		8BAF8CBDB5E3242031391164A0E21132 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A97DD92BC475F52E332170EAFD27B77E /* Pods-ThoughtCloud.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ThoughtCloud.modulemap"; sourceTree = "<group>"; };
+		AE0821F8F7E59246FFF16A5020693041 /* DBSphereTagCloudSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DBSphereTagCloudSwift.framework; path = DBSphereTagCloudSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B235131AF5BCFCAD24617AA54CE7E38B /* MatrixCreation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatrixCreation.swift; path = SwiftNum/Sources/Linear/MatrixCreation.swift; sourceTree = "<group>"; };
+		B3B51348992DCBDFA03363F4E0CF4FB6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		BF512EE4398A950612450BC951DC18F8 /* Pods-ThoughtCloud-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ThoughtCloud-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C1C3AD23FE6C699450BA63F7B9B2C941 /* Pods-ThoughtCloud-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThoughtCloud-dummy.m"; sourceTree = "<group>"; };
+		CB820EA8E93D3C12D6FC325580FE7E82 /* DBSphereTagCloudSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DBSphereTagCloudSwift.release.xcconfig; sourceTree = "<group>"; };
+		CE33046A04C323E44A42CBCB9FA9FD05 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DC51D5B92B13EDB624E147A5ECCCDCB3 /* Pods-ThoughtCloud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThoughtCloud.release.xcconfig"; sourceTree = "<group>"; };
+		ED561B49D995D53E4A875AB07CC3243D /* DBSphereTagCloudSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DBSphereTagCloudSwift.modulemap; sourceTree = "<group>"; };
+		F62579486B592E022E13831584364E07 /* Pods-ThoughtCloud-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ThoughtCloud-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		281B12852DB423350D787246736BE3E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88702DEED2C4A5874AA2BF9283B13306 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E929DF114110D79F0F5CAAE3F90C0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6987165120801D15E8FE52441B0EBECE /* Accelerate.framework in Frameworks */,
+				E4F73B1487AEB36B772FAC5211CAC9F8 /* CoreGraphics.framework in Frameworks */,
+				843266A08D390ABBE0EF41AA3A1FC78E /* Foundation.framework in Frameworks */,
+				5998406296525F4EEA4926A23EC9BB70 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A3C9B5393990AFADBD73E96CC76D613 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE0821F8F7E59246FFF16A5020693041 /* DBSphereTagCloudSwift.framework */,
+				1BC3771CE13AAD2B65587A90F9ECFEBC /* Pods_ThoughtCloud.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B591AF20EC779A7E5D81C521A9BFF53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0FCEAC11B141941A5C2D5DABD0E323C /* DBSphereTagCloudSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8B93C4D7F4A983C5AFF4DCF44A32EEE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC0F4BB62031B5CB60BEBF6E56CC59A4 /* Pods-ThoughtCloud */ = {
+			isa = PBXGroup;
+			children = (
+				A97DD92BC475F52E332170EAFD27B77E /* Pods-ThoughtCloud.modulemap */,
+				BF512EE4398A950612450BC951DC18F8 /* Pods-ThoughtCloud-acknowledgements.markdown */,
+				11213513F063DA5D69022F9F254AEC85 /* Pods-ThoughtCloud-acknowledgements.plist */,
+				C1C3AD23FE6C699450BA63F7B9B2C941 /* Pods-ThoughtCloud-dummy.m */,
+				4FA6190C6EE0ADF1529767D9597D5BA0 /* Pods-ThoughtCloud-frameworks.sh */,
+				6B70128AEA399539EC4C76900E3B331E /* Pods-ThoughtCloud-Info.plist */,
+				F62579486B592E022E13831584364E07 /* Pods-ThoughtCloud-umbrella.h */,
+				2E3B65D2C22ABB1E3D72DF68DB551D81 /* Pods-ThoughtCloud.debug.xcconfig */,
+				DC51D5B92B13EDB624E147A5ECCCDCB3 /* Pods-ThoughtCloud.release.xcconfig */,
+			);
+			name = "Pods-ThoughtCloud";
+			path = "Target Support Files/Pods-ThoughtCloud";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				4B591AF20EC779A7E5D81C521A9BFF53 /* Pods */,
+				2A3C9B5393990AFADBD73E96CC76D613 /* Products */,
+				E0C70073DA383BE208337ADF03215179 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0FCEAC11B141941A5C2D5DABD0E323C /* DBSphereTagCloudSwift */ = {
+			isa = PBXGroup;
+			children = (
+				02ED2B35D6744E8BB846FA2876BBA9FD /* DBSphereView.swift */,
+				31D5170A4D9FF2B98D2CE5B5269E7990 /* Matrix.swift */,
+				08E8C7D4443D98DF61DEE005FA05CA1B /* MatrixConcatenation.swift */,
+				B235131AF5BCFCAD24617AA54CE7E38B /* MatrixCreation.swift */,
+				699329F2C21AC8F6F832B02C5BB0203D /* MatrixMultiplication.swift */,
+				1361FDB0CC633A9BFCFB7B0383AC3128 /* MatrixSubscripting.swift */,
+				F0FA451F68D55A62258D837A4E093014 /* Support Files */,
+			);
+			name = DBSphereTagCloudSwift;
+			path = DBSphereTagCloudSwift;
+			sourceTree = "<group>";
+		};
+		E0C70073DA383BE208337ADF03215179 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC0F4BB62031B5CB60BEBF6E56CC59A4 /* Pods-ThoughtCloud */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F0FA451F68D55A62258D837A4E093014 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED561B49D995D53E4A875AB07CC3243D /* DBSphereTagCloudSwift.modulemap */,
+				10E3D8C0E07091D03A4FAE4428528810 /* DBSphereTagCloudSwift-dummy.m */,
+				7866D064D424485E40CA80D97C61CCAD /* DBSphereTagCloudSwift-Info.plist */,
+				79241DD694CA0270353D9511F023A2BE /* DBSphereTagCloudSwift-prefix.pch */,
+				2A23D7A0889444D426081C07743C26AD /* DBSphereTagCloudSwift-umbrella.h */,
+				3D1F0D860A70F2D9C2648745D91C61E7 /* DBSphereTagCloudSwift.debug.xcconfig */,
+				CB820EA8E93D3C12D6FC325580FE7E82 /* DBSphereTagCloudSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DBSphereTagCloudSwift";
+			sourceTree = "<group>";
+		};
+		F8B93C4D7F4A983C5AFF4DCF44A32EEE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7AEBEDBCA3E65006A4084AE35CF2BFBE /* Accelerate.framework */,
+				B3B51348992DCBDFA03363F4E0CF4FB6 /* CoreGraphics.framework */,
+				CE33046A04C323E44A42CBCB9FA9FD05 /* Foundation.framework */,
+				8BAF8CBDB5E3242031391164A0E21132 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		002C5078006B746C99B2BE3C2F05F13A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DDBCA976F6186806F63AFADD7EEA588 /* Pods-ThoughtCloud-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1730F6C7D0894AA7FD4D7D3943C8754F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AC52084F10EF0AB6A2F82DCFEE2FED /* DBSphereTagCloudSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2096AE7BB28DBC80384A8E5136579F81 /* DBSphereTagCloudSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3232A82B5D821820310570F500DA1FFE /* Build configuration list for PBXNativeTarget "DBSphereTagCloudSwift" */;
+			buildPhases = (
+				1730F6C7D0894AA7FD4D7D3943C8754F /* Headers */,
+				2F04A6C028AB9A25B58C5EA5AEF21706 /* Sources */,
+				33E929DF114110D79F0F5CAAE3F90C0F /* Frameworks */,
+				8A66C9314E7C61598D4CD37F64230C1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DBSphereTagCloudSwift;
+			productName = DBSphereTagCloudSwift;
+			productReference = AE0821F8F7E59246FFF16A5020693041 /* DBSphereTagCloudSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BC21C7BA117D610720B28417AD5BF3B6 /* Pods-ThoughtCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 466CD58FAC1AAB9650E647A13E3386C2 /* Build configuration list for PBXNativeTarget "Pods-ThoughtCloud" */;
+			buildPhases = (
+				002C5078006B746C99B2BE3C2F05F13A /* Headers */,
+				25431D96A441B76606E55CA47528170F /* Sources */,
+				281B12852DB423350D787246736BE3E9 /* Frameworks */,
+				458F4FA3922461EAFB0015D9CA8F7C71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB43ED28DBB31B01AB3DF3AF85575809 /* PBXTargetDependency */,
+			);
+			name = "Pods-ThoughtCloud";
+			productName = "Pods-ThoughtCloud";
+			productReference = 1BC3771CE13AAD2B65587A90F9ECFEBC /* Pods_ThoughtCloud.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2A3C9B5393990AFADBD73E96CC76D613 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2096AE7BB28DBC80384A8E5136579F81 /* DBSphereTagCloudSwift */,
+				BC21C7BA117D610720B28417AD5BF3B6 /* Pods-ThoughtCloud */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		458F4FA3922461EAFB0015D9CA8F7C71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A66C9314E7C61598D4CD37F64230C1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25431D96A441B76606E55CA47528170F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC7E71F0E1A1A9EA60072D804E1E7BA6 /* Pods-ThoughtCloud-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F04A6C028AB9A25B58C5EA5AEF21706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE750D84013C7D5FFBAFF04F626F8507 /* DBSphereTagCloudSwift-dummy.m in Sources */,
+				023F20C99064795776C21FAFD4FE953A /* DBSphereView.swift in Sources */,
+				A76F7D32C5211F892AFA81C06CF3FFFD /* Matrix.swift in Sources */,
+				FAF3E5132752CCE2C149BBB9FF0E7BB3 /* MatrixConcatenation.swift in Sources */,
+				793DCBCB27A9610E4EBB20F0956ADA12 /* MatrixCreation.swift in Sources */,
+				4ADF4F0E3452A6640E42B8CAF869DB3D /* MatrixMultiplication.swift in Sources */,
+				2A1B6DD950FF7E44EE6FC7055E57180F /* MatrixSubscripting.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB43ED28DBB31B01AB3DF3AF85575809 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DBSphereTagCloudSwift;
+			target = 2096AE7BB28DBC80384A8E5136579F81 /* DBSphereTagCloudSwift */;
+			targetProxy = 457AF0CDA25B84B6FCB062DF562A6ECF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		070EE910E3D0F8F604D37A54AB2255DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E3B65D2C22ABB1E3D72DF68DB551D81 /* Pods-ThoughtCloud.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ThoughtCloud/Pods-ThoughtCloud-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ThoughtCloud/Pods-ThoughtCloud.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		43B1827E59CBD190AE47172A984AE3B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB820EA8E93D3C12D6FC325580FE7E82 /* DBSphereTagCloudSwift.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DBSphereTagCloudSwift/DBSphereTagCloudSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DBSphereTagCloudSwift/DBSphereTagCloudSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DBSphereTagCloudSwift/DBSphereTagCloudSwift.modulemap";
+				PRODUCT_MODULE_NAME = DBSphereTagCloudSwift;
+				PRODUCT_NAME = DBSphereTagCloudSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		58B5AA51343F17CDA406C5D23637A494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D1F0D860A70F2D9C2648745D91C61E7 /* DBSphereTagCloudSwift.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DBSphereTagCloudSwift/DBSphereTagCloudSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DBSphereTagCloudSwift/DBSphereTagCloudSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DBSphereTagCloudSwift/DBSphereTagCloudSwift.modulemap";
+				PRODUCT_MODULE_NAME = DBSphereTagCloudSwift;
+				PRODUCT_NAME = DBSphereTagCloudSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F63B04A25925C430F7E19B3F14D2A433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC51D5B92B13EDB624E147A5ECCCDCB3 /* Pods-ThoughtCloud.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ThoughtCloud/Pods-ThoughtCloud-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ThoughtCloud/Pods-ThoughtCloud.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3232A82B5D821820310570F500DA1FFE /* Build configuration list for PBXNativeTarget "DBSphereTagCloudSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B5AA51343F17CDA406C5D23637A494 /* Debug */,
+				43B1827E59CBD190AE47172A984AE3B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		466CD58FAC1AAB9650E647A13E3386C2 /* Build configuration list for PBXNativeTarget "Pods-ThoughtCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				070EE910E3D0F8F604D37A54AB2255DB /* Debug */,
+				F63B04A25925C430F7E19B3F14D2A433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

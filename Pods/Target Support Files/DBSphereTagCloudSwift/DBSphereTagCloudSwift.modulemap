@@ -1,0 +1,6 @@
+framework module DBSphereTagCloudSwift {
+  umbrella header "DBSphereTagCloudSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
