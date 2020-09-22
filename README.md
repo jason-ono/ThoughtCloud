@@ -1,6 +1,6 @@
 # ThoughtCloud
 
-ThoughtCloud is an iOS app that provides a visual representation of text input. More specifically, it **processes text data into an interactive 3D sphere model** made of the **most frequently used words** in the text input.
+ThoughtCloud is an iOS app that provides a visual representation of text input. It **processes text data into an interactive 3D sphere model** made of the **most frequently used words** in the text input.
 
 ## How it works
 
@@ -11,9 +11,9 @@ An example with [my article for the Cavalier Daily](https://www.cavalierdaily.co
 
 <br />
 
-ThoughtCloud stores text data, and the 3D sphere model is **generated at runtime** based on the text input. Users can store text entries by category. 
+ThoughtCloud stores text data and the 3D sphere model is **generated at runtime** based on the text input. Users can store text entries by category. 
 
-I created this app **without using the Interface Builder**. All features have been implemented **programatically**.
+I created this app **without using the Interface Builder**. All features have been implemented programmatically.
 
 The exact process of converting text data into a visual model is as **shown below**:
 
@@ -27,7 +27,7 @@ I created ThoughtCloud as a framework of a larger NLP app project, which is in p
 
 This was my first project using Swift, so I also implemented a wide range of popular frameworks/functions in iOS development for my learning, as listed below.
 
-Feel free to take snippets of my code, especially if you're looking for sample code for **AutoLayout** and **CoreData**. I hope these help.
+Feel free to take snippets of my code, especially if you're looking for a sample code for **AutoLayout** and **CoreData**.
 
 * Data Management
     * **CoreData**
