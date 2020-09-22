@@ -39,7 +39,7 @@ Feel free to take snippets of my code, especially if you're looking for a sample
     * **UITableView**
     * and more...
 
-For the 3D spherical tag cloud view, I used **[DBSphereTagCloudSwift](https://github.com/apparition47/DBSphereTagCloudSwift)** by [apparition47](https://github.com/apparition47) and [dongxinb](https://github.com/dongxinb) (the developer of the original framework initially written in Objective-C).
+For the 3D spherical tag cloud view, I used **[DBSphereTagCloudSwift](https://github.com/apparition47/DBSphereTagCloudSwift)** by [@apparition47](https://github.com/apparition47) and [@dongxinb](https://github.com/dongxinb) (the developer of the original framework initially written in Objective-C).
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
