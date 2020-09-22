@@ -1,6 +1,6 @@
 # ThoughtCloud
 
-ThoughtCloud is an iOS app that provides a visual representation for a text input. More specifically, it **processes text data into an interactive 3D sphere model** made of the **most frequently used words** in the text input.
+ThoughtCloud is an iOS app that provides a visual representation of text input. More specifically, it **processes text data into an interactive 3D sphere model** made of the **most frequently used words** in the text input.
 
 ## How it works
 
